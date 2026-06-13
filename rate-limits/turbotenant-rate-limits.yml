@@ -1,0 +1,12 @@
+name: TurboTenant Rate Limits
+description: TurboTenant does not publish explicit public API rate limit documentation. The platform offers partner API integrations on a case-by-case basis. Known integrations (e.g., Sure for renters insurance, REI Hub for accounting) are custom-built. Landlords using the platform directly experience standard web application request handling. Developers interested in building integrations should contact TurboTenant directly for rate limit and API access terms.
+url: https://www.turbotenant.com/
+limits:
+  - scope: Partner API
+    description: Rate limits for partner integrations are negotiated directly with TurboTenant and are not publicly disclosed. Contact TurboTenant to request API access and integration terms.
+    limit: undisclosed
+    unit: undisclosed
+notes:
+  - TurboTenant does not currently offer a self-service public developer API with documented rate limits.
+  - Known partner integrations include Sure (renters insurance) and REI Hub (accounting/bookkeeping), implemented via custom API agreements.
+  - Developers seeking API access should reach out through TurboTenant's official contact channels.

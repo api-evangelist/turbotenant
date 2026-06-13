@@ -1,0 +1,45 @@
+name: TurboTenant Plans and Pricing
+description: TurboTenant offers a freemium pricing model for landlords and property managers. The Free plan includes core tools at no cost, while Premium plans unlock advanced features such as lease agreements, e-signatures, income verification, and reduced fees.
+url: https://www.turbotenant.com/pricing/
+plans:
+  - name: Free
+    description: Free-forever plan providing access to core landlord tools for advertising, tenant screening, rent collection, maintenance tracking, and in-app messaging with unlimited properties.
+    price: 0
+    unit: month
+    features:
+      - Property listings and advertising (syndicated to 28+ partner sites)
+      - Rental applications and tenant screening
+      - Lead management
+      - Online rent collection (ACH)
+      - Maintenance request tracking
+      - In-app messaging
+      - Mobile app access (landlord and tenant)
+  - name: Premium Essentials
+    description: Annual subscription unlocking premium landlord tools including lease agreements, e-signatures, income verification, and waived ACH fees. Price varies by portfolio size.
+    price: 149
+    priceMax: 349
+    unit: year
+    features:
+      - Everything in Free plan
+      - Lease agreement creation
+      - Unlimited e-signatures
+      - Income verification for applicants
+      - Reduced tenant screening fees
+      - Waived ACH fees for rent collection
+      - Priority customer support
+  - name: Premium Pro
+    description: Annual subscription adding full accounting and bookkeeping tools to the Essentials feature set. Price varies by portfolio size.
+    price: 199
+    priceMax: 999
+    unit: year
+    features:
+      - Everything in Premium Essentials
+      - Built-in accounting and bookkeeping module
+      - Bank and credit card syncing
+      - Tax-ready financial reporting
+      - Dedicated phone support
+addOns:
+  - name: Tenant Screening Report
+    description: Comprehensive credit report, background check, and eviction history. Can be charged to the applicant or the landlord.
+    price: 35
+    unit: screening

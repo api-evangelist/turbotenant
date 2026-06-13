@@ -1,0 +1,26 @@
+name: TurboTenant FinOps
+description: Financial operations considerations for teams and landlords using TurboTenant. The platform follows a freemium model with flat annual subscription pricing and per-transaction add-ons. Cost management focuses on choosing the right tier for portfolio size and selectively using paid screening and e-signature features.
+url: https://www.turbotenant.com/pricing/
+costDrivers:
+  - name: Premium Subscription Tier
+    description: Annual subscription cost for Premium Essentials or Premium Pro depends on portfolio size. Ranges from $149 to $999 per year. Flat pricing regardless of number of properties managed.
+    type: subscription
+    unit: year
+  - name: Tenant Screening Reports
+    description: Each screening report (credit, background, eviction) costs $35. This fee can be passed to the applicant or absorbed by the landlord.
+    type: per-use
+    price: 35
+    unit: screening
+  - name: ACH Rent Collection Fees
+    description: On the Free plan, ACH fees apply for online rent collection. Premium plans waive ACH fees, reducing cost for high-volume rent collectors.
+    type: transaction
+    freeOnPremium: true
+  - name: E-Signatures
+    description: Unlimited e-signatures included on Premium plans. Free plan does not include lease agreements or e-signatures.
+    type: feature
+    freeOnPremium: true
+costOptimizationTips:
+  - Upgrade to Premium Essentials ($149/year) if collecting rent on multiple units to eliminate ACH fees, which can offset subscription cost.
+  - Pass tenant screening fees to applicants to reduce per-screening costs to zero for the landlord.
+  - Use the free plan if managing a single unit and not requiring lease agreements or income verification.
+  - Evaluate Premium Pro only if built-in accounting is needed; otherwise REI Hub or external bookkeeping may be more cost-effective.

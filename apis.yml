@@ -1,0 +1,65 @@
+aid: turbotenant
+name: TurboTenant
+description: TurboTenant is a rental property management platform designed for independent landlords and property managers. It provides tools for advertising rental listings across 28+ syndication sites, managing tenant applications, conducting background and credit screening, creating lease agreements, collecting rent online, handling maintenance requests, and in-app messaging. The platform integrates with partner services via API for renters insurance, accounting, and other property management workflows.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/turbotenant/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Property Management
+  - Rental Listings
+  - Tenant Screening
+  - Rent Collection
+  - Lease Agreements
+  - Maintenance Requests
+  - Real Estate
+apis:
+  - aid: turbotenant:turbotenant-api
+    name: TurboTenant API
+    description: TurboTenant provides a partner API for integrations covering rental property management workflows including listings, tenant applications, screening, lease management, rent collection, and maintenance requests. API access is available to qualified partners through a negotiated agreement rather than a self-service developer portal.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.turbotenant.com/
+    baseURL: https://api.turbotenant.com
+    tags:
+      - Property Management
+      - Rental Listings
+      - Tenant Screening
+      - Rent Collection
+      - Lease Agreements
+      - Maintenance Requests
+    properties:
+      - type: Documentation
+        url: https://www.turbotenant.com/features/
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/turbotenant/refs/heads/main/plans/turbotenant-plans-pricing.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/turbotenant/refs/heads/main/rate-limits/turbotenant-rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/turbotenant/refs/heads/main/finops/turbotenant-finops.yml
+common:
+  - type: Website
+    url: https://www.turbotenant.com/
+  - type: Documentation
+    url: https://www.turbotenant.com/features/
+  - type: GitHubOrg
+    url: https://github.com/turbotenant
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/turbotenant
+  - type: Blog
+    url: https://www.turbotenant.com/blog/
+  - type: Pricing
+    url: https://www.turbotenant.com/pricing/
+  - type: StatusPage
+    url: https://status.turbotenant.com/
+  - type: X
+    url: https://x.com/turbotenant
+  - type: Plans
+    url: plans/turbotenant-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/turbotenant-rate-limits.yml
+  - type: FinOps
+    url: finops/turbotenant-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
