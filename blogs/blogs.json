@@ -1,0 +1,9 @@
+{
+  "aid": "turbotenant",
+  "name": "TurboTenant",
+  "blogUrl": "https://www.turbotenant.com/blog/",
+  "description": "TurboTenant blog covering rental property management topics for independent landlords and property managers.",
+  "posts": [],
+  "lastFetched": "2026-06-13",
+  "notes": "Blog at https://www.turbotenant.com/blog/ returned HTTP 403 during automated fetch. Manual review required to populate posts."
+}
