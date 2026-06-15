@@ -5,5 +5,17 @@
   "description": "TurboTenant blog covering rental property management topics for independent landlords and property managers.",
   "posts": [],
   "lastFetched": "2026-06-13",
-  "notes": "Blog at https://www.turbotenant.com/blog/ returned HTTP 403 during automated fetch. Manual review required to populate posts."
+  "notes": "Blog at https://www.turbotenant.com/blog/ returned HTTP 403 during automated fetch. Manual review required to populate posts.",
+  "repo": "turbotenant",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/turbotenant",
+      "feed_url": "https://www.linkedin.com/company/turbotenant",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
