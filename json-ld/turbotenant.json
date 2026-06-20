@@ -5,7 +5,7 @@
   "name": "TurboTenant",
   "description": "TurboTenant is a rental property management platform designed for independent landlords and property managers. It provides tools for advertising rental listings across 28+ syndication sites, managing tenant applications, conducting background and credit screening, creating lease agreements, collecting rent online, handling maintenance requests, and in-app messaging.",
   "url": "https://www.turbotenant.com/",
-  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "logo": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "sameAs": [
     "https://github.com/turbotenant",
     "https://www.linkedin.com/company/turbotenant",
