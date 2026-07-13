@@ -2,11 +2,13 @@
   "repo": "turbotenant",
   "feeds": [
     {
-      "source": "https://www.turbotenant.com/blog/",
+      "source": "https://www.linkedin.com/company/turbotenant",
+      "feed_url": "https://www.linkedin.com/company/turbotenant",
+      "title": "",
       "saved": 0,
-      "error": "HTTP 403 Forbidden on blog listing"
+      "method": "none"
     }
   ],
-  "fetched": "2026-06-27T13:17:40Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 0
 }
