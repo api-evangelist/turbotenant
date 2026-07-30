@@ -1,7 +1,19 @@
 aid: turbotenant
 name: TurboTenant
 description: TurboTenant is a rental property management platform designed for independent landlords and property managers. It provides tools for advertising rental listings across 28+ syndication sites, managing tenant applications, conducting background and credit screening, creating lease agreements, collecting rent online, handling maintenance requests, and in-app messaging. The platform integrates with partner services via API for renters insurance, accounting, and other property management workflows.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turbotenant.png
 url: https://raw.githubusercontent.com/api-evangelist/turbotenant/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
