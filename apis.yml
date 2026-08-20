@@ -25,6 +25,14 @@ tags:
   - Rent Collection
   - Lease Agreements
   - Maintenance Requests
+  - Real-Estate
+tags_raw:
+  - Property Management
+  - Rental Listings
+  - Tenant Screening
+  - Rent Collection
+  - Lease Agreements
+  - Maintenance Requests
   - Real Estate
 apis:
   - aid: turbotenant:turbotenant-api
