@@ -1,6 +1,17 @@
 aid: turbotenant
 name: TurboTenant
 description: TurboTenant is a rental property management platform designed for independent landlords and property managers. It provides tools for advertising rental listings across 28+ syndication sites, managing tenant applications, conducting background and credit screening, creating lease agreements, collecting rent online, handling maintenance requests, and in-app messaging. The platform integrates with partner services via API for renters insurance, accounting, and other property management workflows.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
