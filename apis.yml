@@ -36,7 +36,7 @@ tags:
   - Rent Collection
   - Lease Agreements
   - Maintenance Requests
-  - Real-Estate
+  - Real Estate
 tags_raw:
   - Property Management
   - Rental Listings
@@ -45,6 +45,7 @@ tags_raw:
   - Lease Agreements
   - Maintenance Requests
   - Real Estate
+  - Real-Estate
 apis:
   - aid: turbotenant:turbotenant-api
     name: TurboTenant API
