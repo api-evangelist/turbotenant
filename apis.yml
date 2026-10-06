@@ -27,7 +27,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/turbotenant.png
 url: https://raw.githubusercontent.com/api-evangelist/turbotenant/refs/heads/main/apis.yml
 created: '2026-06-13'
-modified: '2026-06-13'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 tags:
   - Property Management
@@ -70,6 +70,8 @@ apis:
       - type: FinOps
         url: https://raw.githubusercontent.com/api-evangelist/turbotenant/refs/heads/main/finops/turbotenant-finops.yml
 common:
+  - url: https://www.turbotenant.com/feed/
+    type: BlogRSS
   - type: DomainSecurity
     url: security/turbotenant-domain-security.yml
   - type: Website
