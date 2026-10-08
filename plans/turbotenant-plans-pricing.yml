@@ -47,3 +47,33 @@ addOns:
     description: Comprehensive credit report, background check, and eviction history. Can be charged to the applicant or the landlord.
     price: 35
     unit: screening
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units:
+  - period
+  plans:
+  - name: Free
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Premium Essentials
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Premium Pro
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
