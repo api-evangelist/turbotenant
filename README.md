@@ -64,28 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-TurboTenant is a rental property management platform designed for independent landlords and property managers. It provides tools for advertising rental listings across 28+ syndication sites, managing tenant applications, conducting background and credit screening, creating lease agreements, collecting rent online, handling maintenance requests, and in-app messaging.
+TurboTenant is a rental property management platform designed for independent landlords and property managers. It provides tools for advertising rental listings across 28+ syndication sites, managing tenant applications, conducting background and credit screening, creating lease agreements, collecting rent online, handling maintenance requests, and in-app messaging. The platform integrates with partner services via API for renters insurance, accounting, and other property management workflows.
 
-## Links
+**Areas:** Property Management · Rental Listings · Tenant Screening · Rent Collection · Lease Agreements · Maintenance Requests · Real Estate
 
-- **Website:** https://www.turbotenant.com/
-- **Features:** https://www.turbotenant.com/features/
-- **Pricing:** https://www.turbotenant.com/pricing/
-- **Blog:** https://www.turbotenant.com/blog/
-- **LinkedIn:** https://www.linkedin.com/company/turbotenant
-- **X (Twitter):** https://x.com/turbotenant
-- **GitHub:** https://github.com/turbotenant
-- **Status:** https://status.turbotenant.com/
+## TurboTenant on APIs.io
 
-## APIs.json
+Everything profiled for TurboTenant is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/turbotenant/](https://apis.io/providers/turbotenant/)** — or go straight to one of the APIs or properties below.
 
-This repository contains an APIs.json 0.19 profile for TurboTenant, including:
+### APIs (1)
 
-- [apis.yml](apis.yml) — Main APIs.json index
-- [plans/turbotenant-plans-pricing.yml](plans/turbotenant-plans-pricing.yml) — Pricing plans (Free, Premium Essentials, Premium Pro)
-- [rate-limits/turbotenant-rate-limits.yml](rate-limits/turbotenant-rate-limits.yml) — Rate limit information
-- [finops/turbotenant-finops.yml](finops/turbotenant-finops.yml) — Financial operations guidance
+- [TurboTenant API](https://apis.io/apis/turbotenant/turbotenant-api/) — TurboTenant provides a partner API for integrations covering rental property management workflows including listings, tenant applications, screening, lease…
 
-## Maintainer
+### Published properties
 
-Kin Lane — kin@apievangelist.com
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Turbotenant Domain Security](https://apis.io/security/turbotenant/turbotenant-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Turbotenant Plans Pricing](https://apis.io/plans/turbotenant/turbotenant-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Turbotenant Rate Limits](https://apis.io/rate-limits/turbotenant/turbotenant-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Turbotenant Finops](https://apis.io/finops/turbotenant/turbotenant-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.turbotenant.com/)
+- [Documentation](https://www.turbotenant.com/features/)
+- [Pricing](https://www.turbotenant.com/pricing/)
+- [Blog](https://www.turbotenant.com/blog/)
+- [Status](https://status.turbotenant.com/)
+
+## API Evangelist rating
+
+**Kin Score 14.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 18.4 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/turbotenant/](https://apis.io/providers/turbotenant/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for TurboTenant: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/turbotenant/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
